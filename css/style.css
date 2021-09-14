@@ -2,17 +2,65 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
+body{
+    background-color: whitesmoke;
+}
 header{
-    height: 57px;
+    height: 60px;
     background-color: white;
+}
+header img{
+    margin-top: 5px;
 }
 
 #titolo{
     font-family: 'Roboto', sans-serif;
     font-size: 30px;
-    text-align: center;
+    
     line-height: 57px;
+    margin-top: px;
+}
+
+main{
+    width: 70%;
+    background-color: white;
+    height: 100%;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    border-radius: 7px;
+}
+
+section.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.linea{
+    height: 2px;
+    background-color: whitesmoke;
+}
+
+button{
+    padding: 8px 12px;
+    border: 0px;
+}
+
+.task, .section{
+    border-radius: 6px;
+
+}
+.task{
+    background-color: rgb(99, 183, 223);
+    color: white;
+}
+
+.section{
+    border: 2px solid lightgrey;
+    background-color: white;
+    color: lightgrey;
 }
 
