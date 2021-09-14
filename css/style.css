@@ -43,6 +43,7 @@ main{
 section.container{
     width: 80%;
     margin: 0 auto;
+    padding: 10px;
 }
 
 .line{
@@ -50,7 +51,7 @@ section.container{
     background-color: whitesmoke;
 }
 
-button{
+button.menu{
     padding: 8px 12px;
     border: 0px;
 }
@@ -71,12 +72,16 @@ button{
 }
 
 div.list{
-    margin: 20px 0px;
+    margin-top: 20px ;
 }
 
 div.list-name{
     display: inline-block;
     font-weight: 900;
+}
+
+div.element{
+    margin-top: 20px;
 }
 
 .triangle{
@@ -88,6 +93,57 @@ div.list-name{
     border-color: black transparent transparent transparent;
     margin-right: 5px;
 }
+
+div.circle{
+    display: inline-block;    
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    vertical-align: middle;
+    line-height: 100%;
+    margin-right: 5px;
+}
+
+div.check{    
+    border: 2px solid rgb(28, 211, 43);
+    color: rgb(28, 211, 43);      
+}
+
+div.uncheck{    
+    border: 2px solid rgb(228, 59, 29);
+    color: rgb(228, 59, 29);    
+}
+
+span.tag{
+    box-sizing: border-box;
+    padding: 8px 12px;
+    border-radius: 18px;
+    color: white;
+    margin-left: 5px;
+    border: 0px;  
+    font-size: small;  
+}
+
+span.editorial{
+    background-color: rgb(99, 183, 223);
+}
+span.goals{
+    background-color: rgb(125, 80, 146);
+}
+span.recruiting{
+    background-color: rgb(121, 184, 168);
+}
+span.mobile{
+    background-color: rgb(224, 141, 62);
+}
+span.website{
+    background-color: rgb(223, 99, 171);
+}
+span.sales{
+    background-color: rgb(159, 223, 99);
+}
+
+
 
 
 
